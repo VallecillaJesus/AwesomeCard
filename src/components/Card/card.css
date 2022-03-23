@@ -1,0 +1,43 @@
+
+.card {
+    height: 300px;
+    width: 200px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    background: radial-gradient(#36003C 40%, #272640);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5 ) ;
+    border-radius: 10px;
+}
+
+.card_button{
+    align-self: baseline;
+    justify-self: center;
+    border-radius: 25px;
+    border: 0;
+    background:transparent;
+    border: 1px solid #89003B;
+    color:#fff;
+    font-weight: bold;
+    width: 80%;
+    height: 30px;
+}
+
+.card_button:hover{
+    background: #AF0842;
+}
+
+.card_title{
+    align-self: center;
+    justify-self:center; 
+    color: #fff;
+    overflow:hidden;
+}
+
+.card_image{
+    align-self: baseline;
+    justify-self: center;
+    width: 100%;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
