@@ -1,7 +1,19 @@
-import React from 'react'
+import React, { Component } from 'react'
+import Card from '../Card'
+import './style.css'
 
-export const CardCollection = () => {
-  return (
-    <div >CardCollection</div>
-  )
+class CardCollection extends Component {
+  render() {
+    return (
+      <>
+        <div className='cards_wrapper'>
+          <Card />
+          <Card />
+          <Card />
+        </div>
+      </>
+    )
+  }
 }
+
+export default CardCollection;
